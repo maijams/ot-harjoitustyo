@@ -101,7 +101,7 @@ Date:   Sun Mar 20 15:03:34 2022 +0200
 
  tiedosto.txt | 1 +
  toinen.txt   | 0
- 2 files changed, 1 insertion(+)
+ 2 files changed,, 1 insertion(+)
 
 commit 7720ebcd47b0728240403146aad734f494d3108e
 Author: Maija <maija.saisa@helsinki.fi>
