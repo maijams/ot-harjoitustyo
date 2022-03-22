@@ -28,3 +28,5 @@ Tekstilaatikko
 Voit luoda myös linkkejä, esim. [Markdown-ohjeet](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
 *Tekstiä tehtävään 16*
+
+*Tekstiä tehtävään 17 paikallisesti*
