@@ -1,8 +1,8 @@
 class Kassapaate:
-    def __init__(self):
-        self.kassassa_rahaa = 100000
-        self.edulliset = 0
-        self.maukkaat = 0
+    def __init__(self, kassa, edulliset, maukkaat):
+        self.kassassa_rahaa = kassa
+        self.edulliset = edulliset
+        self.maukkaat = maukkaat
 
     def syo_edullisesti_kateisella(self, maksu):
         if maksu >= 240:
@@ -42,3 +42,9 @@ class Kassapaate:
             self.kassassa_rahaa += summa
         else:
             return
+        
+    def __str__(self):
+        saldo_euroissa = round(self.kassassa_rahaa / 100, 2)
+
+        return f"Kassa: {saldo_euroissa}€. Myynti: edulliset {self.edulliset}kpl, maukkaat {self.maukkaat}kpl"
+
