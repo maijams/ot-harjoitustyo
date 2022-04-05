@@ -1,11 +1,11 @@
 ```mermaid
 sequenceDiagram
-    participant Main
-    participant Machine
+    participant main
+    participant olio
     participant Engine
     participant FuelTank
     
-    Main->>Machine: M()
-
-    Main->>Machine: drive()
+    main->>olio: Machine()
+    olio->>FuelTank: FuelTank() 
+    main->>olio: drive()
 ```
